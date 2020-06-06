@@ -1,13 +1,14 @@
 import React from 'react';
 import {useDispatch, useSelector} from 'react-redux';
-import { useHistory } from "react-router-dom";
 import EmptyCart from '../../assets/images/empty_cart.jpg';
 import { ReactComponent as ArrowDown } from '../../assets/icons/arrow-down.svg';
 import { ReactComponent as ArrowUp } from '../../assets/icons/arrow-up.svg';
 import { ReactComponent as CloseButton } from '../../assets/icons/close-button.svg';
+import Modal from "../modal/index";
+import useModal from '../modal/useModal';
 
 import './cart.scss';
-import {removeItem, addQuantity, minusQuantity, cleanCart} from "../../store/actions/cartAction";
+import {removeItem, addQuantity, minusQuantity} from "../../store/actions/cartAction";
 
 export default function Cart() {
     const {items, total } = useSelector(state => ({
@@ -15,18 +16,8 @@ export default function Cart() {
         total: state.total,
     }));
     const dispatch = useDispatch();
-    const history = useHistory();
 
-    const handleSubmitButton = () => {
-        localStorage.setItem(`myCart ${Math.floor(Math.random() * 1000)}`, JSON.stringify({
-            data: new Date().toJSON().slice(0,10).replace(/-/g,'/'),
-            orderSum: total,
-            addedItems: items,
-        }));
-        alert('Thank you for order');
-        dispatch(cleanCart());
-        history.push("/");
-    };
+    const {isShowing, toggle} = useModal();
 
     let addedItems = items.length ?
         (
@@ -66,7 +57,11 @@ export default function Cart() {
             {items.length ?  (
                 <div>
                     <p className='cart__total'><b>Order price: {total}$</b></p>
-                    <button type='submit' className='cart__confirm-button' onClick={handleSubmitButton}>Confirm the order</button>
+                    <button type='submit' className='cart__confirm-button' onClick={toggle}>Confirm the order</button>
+                    <Modal
+                        isShowing={isShowing}
+                        hide={toggle}
+                    />
                 </div>) : null
             }
         </div>
