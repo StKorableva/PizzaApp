@@ -1,0 +1,68 @@
+.itemPage {
+  box-sizing: border-box;
+  height: 100%;
+
+  &__container {
+    margin: 35px 70px 0 40px;
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+
+.card {
+  margin-left: 30px;
+  margin-bottom: 40px;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  &:last-child {
+    margin-bottom: 100px;
+  }
+  img {
+    width: 260px;
+
+    margin-bottom: 10px;
+  }
+
+  &__content {
+    width: 260px;
+
+    text-align: start;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  &__title {
+    font-size: 18px;
+  }
+
+  &__description {
+    margin: 7px 0 10px 0;
+  }
+
+  &__bottom-container {
+    width: inherit;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__price {
+    font-size: 25px;
+  }
+
+  &__button {
+    margin-right: 15px;
+
+    width: 25px;
+
+    cursor: pointer;
+  }
+}
