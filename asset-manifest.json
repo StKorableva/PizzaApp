@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/PizzaApp/static/css/main.54e5d59a.chunk.css",
+    "main.js": "/PizzaApp/static/js/main.5f228a40.chunk.js",
+    "main.js.map": "/PizzaApp/static/js/main.5f228a40.chunk.js.map",
+    "runtime-main.js": "/PizzaApp/static/js/runtime-main.170f9013.js",
+    "runtime-main.js.map": "/PizzaApp/static/js/runtime-main.170f9013.js.map",
+    "static/js/2.0e7d4ded.chunk.js": "/PizzaApp/static/js/2.0e7d4ded.chunk.js",
+    "static/js/2.0e7d4ded.chunk.js.map": "/PizzaApp/static/js/2.0e7d4ded.chunk.js.map",
+    "index.html": "/PizzaApp/index.html",
+    "precache-manifest.1c90b148f9e3b8762de6740c6489fa66.js": "/PizzaApp/precache-manifest.1c90b148f9e3b8762de6740c6489fa66.js",
+    "service-worker.js": "/PizzaApp/service-worker.js",
+    "static/css/main.54e5d59a.chunk.css.map": "/PizzaApp/static/css/main.54e5d59a.chunk.css.map",
+    "static/js/2.0e7d4ded.chunk.js.LICENSE.txt": "/PizzaApp/static/js/2.0e7d4ded.chunk.js.LICENSE.txt",
+    "static/media/Drinks (1).jpeg": "/PizzaApp/static/media/Drinks (1).ff0665e1.jpeg",
+    "static/media/Drinks (2).jpeg": "/PizzaApp/static/media/Drinks (2).a730d686.jpeg",
+    "static/media/Drinks (3).jpeg": "/PizzaApp/static/media/Drinks (3).4d6128ca.jpeg",
+    "static/media/Drinks (4).jpeg": "/PizzaApp/static/media/Drinks (4).ad6896c7.jpeg",
+    "static/media/Drinks (5).jpeg": "/PizzaApp/static/media/Drinks (5).c47f4446.jpeg",
+    "static/media/Drinks (6).jpeg": "/PizzaApp/static/media/Drinks (6).12eb5a65.jpeg",
+    "static/media/Logo.jpg": "/PizzaApp/static/media/Logo.c6841ee0.jpg",
+    "static/media/arrow-down.bfc53b6a.svg": "/PizzaApp/static/media/arrow-down.bfc53b6a.svg",
+    "static/media/arrow-up.ea1631d7.svg": "/PizzaApp/static/media/arrow-up.ea1631d7.svg",
+    "static/media/close-button.07be3e23.svg": "/PizzaApp/static/media/close-button.07be3e23.svg",
+    "static/media/empty_cart.jpg": "/PizzaApp/static/media/empty_cart.c6e7ca3d.jpg",
+    "static/media/pizza (1).jpeg": "/PizzaApp/static/media/pizza (1).c0af93c3.jpeg",
+    "static/media/pizza (2).jpeg": "/PizzaApp/static/media/pizza (2).15085ec3.jpeg",
+    "static/media/pizza (3).jpeg": "/PizzaApp/static/media/pizza (3).f5e47b6a.jpeg",
+    "static/media/pizza (4).jpeg": "/PizzaApp/static/media/pizza (4).d6bde3a6.jpeg",
+    "static/media/pizza (5).jpeg": "/PizzaApp/static/media/pizza (5).89100e89.jpeg",
+    "static/media/pizza (6).jpeg": "/PizzaApp/static/media/pizza (6).67a833c2.jpeg",
+    "static/media/pizza (7).jpeg": "/PizzaApp/static/media/pizza (7).f5a2bb85.jpeg",
+    "static/media/pizza (8).jpeg": "/PizzaApp/static/media/pizza (8).381f84bf.jpeg",
+    "static/media/plus.1e71bac7.svg": "/PizzaApp/static/media/plus.1e71bac7.svg",
+    "static/media/shopping-cart.2f79694d.svg": "/PizzaApp/static/media/shopping-cart.2f79694d.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.170f9013.js",
+    "static/js/2.0e7d4ded.chunk.js",
+    "static/css/main.54e5d59a.chunk.css",
+    "static/js/main.5f228a40.chunk.js"
+  ]
+}
