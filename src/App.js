@@ -20,16 +20,16 @@ function App() {
             <div className="App">
                 <Header/>
                 <Switch>
-                    <Route path="/" exact>
+                    <Route path="/PizzaApp/" exact>
                         <PizzaPage />
                     </Route>
-                    <Route path="/drink">
+                    <Route path="/PizzaApp/drink">
                         <DrinkPage />
                     </Route>
-                    <Route path="/cart">
+                    <Route path="/PizzaApp/cart">
                         <Cart />
                     </Route>
-                    <Route path="/history">
+                    <Route path="/PizzaApp/history">
                         <OrderHistory />
                     </Route>
                 </Switch>

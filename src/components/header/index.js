@@ -11,16 +11,16 @@ export default function Header() {
             <img className="header__logo" src={Logo} alt='Holy Pizza'/>
             <ul className='header__list'>
                 <li className='header__list-item'>
-                    <Link className='header__link' to="/">Pizza</Link>
+                    <Link className='header__link' to="/PizzaApp/">Pizza</Link>
                 </li>
                 <li className='header__list-item'>
-                    <Link className='header__link' to="/drink">Drink</Link>
+                    <Link className='header__link' to="/PizzaApp/drink">Drink</Link>
                 </li>
                 <li className='header__list-item'>
-                    <Link className='header__link' to="/cart"><ShoppingCart className='header__link-cart'/></Link>
+                    <Link className='header__link' to="/PizzaApp/cart"><ShoppingCart className='header__link-cart'/></Link>
                 </li>
                 <li className='header__list-item'>
-                    <Link className='header__link' to="/history">Order history</Link>
+                    <Link className='header__link' to="/PizzaApp/history">Order history</Link>
                 </li>
             </ul>
         </div>
