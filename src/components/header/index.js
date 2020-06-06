@@ -8,7 +8,7 @@ import './header.scss';
 export default function Header() {
     return (
         <div className='header'>
-            <img className="header__logo" src={Logo} alt='Holy Pizza'/>
+            <Link className='header__link' to="/PizzaApp/"><img className="header__logo" src={Logo} alt='Holy Pizza'/></Link>
             <ul className='header__list'>
                 <li className='header__list-item'>
                     <Link className='header__link' to="/PizzaApp/">Pizza</Link>

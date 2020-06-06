@@ -64,5 +64,10 @@
     width: 25px;
 
     cursor: pointer;
+
+    &:active {
+      fill: green;
+      transition: all 0.15s;
+    }
   }
 }

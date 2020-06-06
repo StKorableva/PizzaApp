@@ -18,6 +18,10 @@
     margin-top: 50px;
 
     width: 150px;
+
+    &:hover {
+      cursor: pointer;
+    }
   }
 
   &__list {
