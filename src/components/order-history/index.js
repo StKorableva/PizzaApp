@@ -9,9 +9,9 @@ export default function OrderHistory() {
     const orderHistoryParse = orderHistory.map(order => JSON.parse(order));
 
     const showOrderItems = order => {
-        return order.addedItems.map(item => {
+        return order.addedItems.map((item, i)=> {
             return (
-                <li className='cart__order-history__order-items' >
+                <li key={i*10} className='cart__order-history__order-items' >
                     {item.title}
                 </li>
             )
