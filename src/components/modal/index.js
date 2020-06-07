@@ -1,7 +1,8 @@
-import React from 'react';
+import React, {useState} from 'react';
 import ReactDOM from 'react-dom';
 import {useDispatch, useSelector} from "react-redux";
 import { useHistory } from "react-router-dom";
+import validator from 'validator';
 
 import {cleanCart} from "../../store/actions/cartAction";
 
@@ -16,15 +17,21 @@ const Modal = ({ isShowing, hide }) => {
     const dispatch = useDispatch();
     const history = useHistory();
 
-    const handleSubmit = () => {
-        localStorage.setItem(`myCart ${Math.floor(Math.random() * 1000)}`, JSON.stringify({
+    const [phone, setPhone] = useState('');
+    const [errors, setErrors]  = useState('');
+
+    const handleSubmit = e => {
+        e.preventDefault();
+        if (validator.isMobilePhone(phone)) {
+            localStorage.setItem(`myCart ${Math.floor(Math.random() * 1000)}`, JSON.stringify({
             data: new Date().toJSON().slice(0,10).replace(/-/g,'/'),
             orderSum: total,
             addedItems: items,
         }));
-        alert('Thank you for order');
-        dispatch(cleanCart());
-        history.push("/PizzaApp/");
+            alert('Thank you for order');
+            dispatch(cleanCart());
+            history.push("/PizzaApp/");
+        } else {setErrors('Phone is not correct')}
     };
 
     return (isShowing ? ReactDOM.createPortal(
@@ -49,15 +56,6 @@ const Modal = ({ isShowing, hide }) => {
                         </label>
 
                         <label className='form__field-title'>
-                            Last name:<br/>
-                            <input
-                                className='form__field'
-                                name="lastName"
-                                type="text"
-                                required />
-                        </label>
-
-                        <label className='form__field-title'>
                             Address:<br/>
                             <input
                                 className='form__field'
@@ -72,8 +70,11 @@ const Modal = ({ isShowing, hide }) => {
                                 className='form__field'
                                 name="phone"
                                 type="text"
+                                value={phone}
+                                onChange={event => setPhone(event.target.value)}
                                 required />
                         </label>
+                        <span className='error'>{errors}</span>
 
                         <label className='form__field-title'>
                             Email:<br/>
