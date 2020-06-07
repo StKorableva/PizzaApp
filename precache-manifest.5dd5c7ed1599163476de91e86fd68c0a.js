@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "401ed8cff80a750bf01ccc731125033d",
+    "revision": "db86a35e50c51f1d82586fa73e87af38",
     "url": "/PizzaApp/index.html"
   },
   {
-    "revision": "7e0e1dabdcef71e091d7",
-    "url": "/PizzaApp/static/css/main.8064c00d.chunk.css"
+    "revision": "d43bdd43a355ee697d05",
+    "url": "/PizzaApp/static/css/main.6ae197f7.chunk.css"
   },
   {
-    "revision": "6728dde55f0d66b164db",
-    "url": "/PizzaApp/static/js/2.29ca95a5.chunk.js"
+    "revision": "33b39133dcdd6dd1717f",
+    "url": "/PizzaApp/static/js/2.a65ab2d1.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/PizzaApp/static/js/2.29ca95a5.chunk.js.LICENSE.txt"
+    "url": "/PizzaApp/static/js/2.a65ab2d1.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7e0e1dabdcef71e091d7",
-    "url": "/PizzaApp/static/js/main.b9a08ccc.chunk.js"
+    "revision": "d43bdd43a355ee697d05",
+    "url": "/PizzaApp/static/js/main.121a214e.chunk.js"
   },
   {
     "revision": "85e95dc6e4cee7e438b0",

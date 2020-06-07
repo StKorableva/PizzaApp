@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/PizzaApp/static/css/main.8064c00d.chunk.css",
-    "main.js": "/PizzaApp/static/js/main.b9a08ccc.chunk.js",
-    "main.js.map": "/PizzaApp/static/js/main.b9a08ccc.chunk.js.map",
+    "main.css": "/PizzaApp/static/css/main.6ae197f7.chunk.css",
+    "main.js": "/PizzaApp/static/js/main.121a214e.chunk.js",
+    "main.js.map": "/PizzaApp/static/js/main.121a214e.chunk.js.map",
     "runtime-main.js": "/PizzaApp/static/js/runtime-main.170f9013.js",
     "runtime-main.js.map": "/PizzaApp/static/js/runtime-main.170f9013.js.map",
-    "static/js/2.29ca95a5.chunk.js": "/PizzaApp/static/js/2.29ca95a5.chunk.js",
-    "static/js/2.29ca95a5.chunk.js.map": "/PizzaApp/static/js/2.29ca95a5.chunk.js.map",
+    "static/js/2.a65ab2d1.chunk.js": "/PizzaApp/static/js/2.a65ab2d1.chunk.js",
+    "static/js/2.a65ab2d1.chunk.js.map": "/PizzaApp/static/js/2.a65ab2d1.chunk.js.map",
     "index.html": "/PizzaApp/index.html",
-    "precache-manifest.d81bbc86e57be0a637da3a3bc26f8270.js": "/PizzaApp/precache-manifest.d81bbc86e57be0a637da3a3bc26f8270.js",
+    "precache-manifest.5dd5c7ed1599163476de91e86fd68c0a.js": "/PizzaApp/precache-manifest.5dd5c7ed1599163476de91e86fd68c0a.js",
     "service-worker.js": "/PizzaApp/service-worker.js",
-    "static/css/main.8064c00d.chunk.css.map": "/PizzaApp/static/css/main.8064c00d.chunk.css.map",
-    "static/js/2.29ca95a5.chunk.js.LICENSE.txt": "/PizzaApp/static/js/2.29ca95a5.chunk.js.LICENSE.txt",
+    "static/css/main.6ae197f7.chunk.css.map": "/PizzaApp/static/css/main.6ae197f7.chunk.css.map",
+    "static/js/2.a65ab2d1.chunk.js.LICENSE.txt": "/PizzaApp/static/js/2.a65ab2d1.chunk.js.LICENSE.txt",
     "static/media/Drinks (1).jpeg": "/PizzaApp/static/media/Drinks (1).ff0665e1.jpeg",
     "static/media/Drinks (2).jpeg": "/PizzaApp/static/media/Drinks (2).a730d686.jpeg",
     "static/media/Drinks (3).jpeg": "/PizzaApp/static/media/Drinks (3).4d6128ca.jpeg",
@@ -36,8 +36,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.170f9013.js",
-    "static/js/2.29ca95a5.chunk.js",
-    "static/css/main.8064c00d.chunk.css",
-    "static/js/main.b9a08ccc.chunk.js"
+    "static/js/2.a65ab2d1.chunk.js",
+    "static/css/main.6ae197f7.chunk.css",
+    "static/js/main.121a214e.chunk.js"
   ]
 }
